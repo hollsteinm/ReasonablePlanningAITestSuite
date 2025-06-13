@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"EngineVersion": "5.5",
+	"Version": 1,
+	"VersionName": "1.0.2-5.5-gold",
+	"FriendlyName": "Reasonable Planning AI Test Suite",
+	"Description": "Unit and Functional Tests for Reasonable Planning AI",
+	"Category": "Artificial Intelligence",
+	"CreatedBy": "Radaway Software LLC",
+	"CreatedByURL": "https://hollstein.dev",
+	"DocsURL": "https://github.com/hollsteinm/ReasonablePlanningAITestSuite/README.MD",
+	"SupportURL": "https://github.com/hollsteinm/ReasonablePlanningAITestSuite/issues",
+	"CanContainContent": true,
+	"Modules": [
+		{
+			"Name": "ReasonablePlanningAITestSuite",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ReasonablePlanningAI",
+                        "Enabled": true
+                }
+       ]
+}
